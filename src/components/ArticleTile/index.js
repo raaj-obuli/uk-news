@@ -6,7 +6,7 @@ function ArticleTile(props = {}) {
 
     return (
         <article className="ArticleTile">
-            <a href={props.url} target="_black">
+            <a href={props.url} target="_blank">
                 <figure className="ArticleTile_figure">
                     {
                         img &&

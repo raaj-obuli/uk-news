@@ -8,6 +8,10 @@ import './News.scss';
 
 const NO_RESULT = 'No news available for the keyword entered'
 
+/**
+ * Container component that act as the container for the current route
+ * This component fetches data from api and dispatch it store
+ */
 class News extends React.Component {
     componentDidMount() {
         this.props.fetchNews();

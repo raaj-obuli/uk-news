@@ -1,0 +1,21 @@
+.header {
+    background: #222;
+
+    &_wrap {
+        margin: auto;
+    }
+
+    img {
+        height: 70px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .header {
+        &_wrap {
+            width: 1200px;
+            margin: auto;
+        }
+    }
+}

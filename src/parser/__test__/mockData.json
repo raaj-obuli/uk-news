@@ -1,0 +1,30 @@
+{
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Daily Mail"
+            },
+            "author": "By Frances Mulraney For Dailymail.com",
+            "title": "Joe Biden said in 2016 that it is a president's 'constitutional duty' to fill a SCOTUS seat - Daily Mail",
+            "description": "Joe Biden claimed in 2016 that it was the 'constitutional duty' of a president to name a Supreme Court nominee even in an election year despite his claim Friday that it should wait.",
+            "url": "https://www.dailymail.co.uk/news/article-8752197/Joe-Biden-said-2016-presidents-constitutional-duty-SCOTUS-seat.html",
+            "urlToImage": "https://i.dailymail.co.uk/1s/2020/09/20/07/33391224-0-image-a-29_1600582081393.jpg",
+            "publishedAt": "2020-09-20T06:40:14Z",
+            "content": "Joe Biden is accused of hypocrisy after a 2016 op-ed emerged in which he slammed Republicans for holding up a Supreme Court appointment, stating that it is the 'constitutional duty' of a president to… [+9457 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sports Illustrated"
+            },
+            "author": "Pat Forde",
+            "title": "College Football Top 10: UCF Poised to Insert Itself Into College Football Playoff Discussion - Sports Illustrated",
+            "description": "The UCF Knights have no shortage of playmakers. Six players had double-digit runs in Saturday's rout of Georgia Tech.",
+            "url": "https://www.si.com/college/2020/09/20/ncaa-football-rankings-ucf-miami-clemson",
+            "urlToImage": "https://www.si.com/.image/t_share/MTc1NTI3ODIzNTAxNDM2MDIz/mylesmurphy.jpg",
+            "publishedAt": "2020-09-20T05:10:00Z",
+            "content": "We went a whole year without a UCF undefeated national champion squabble. Everyone ready to resume?\r\nThe Knights got the argument started emphatically in Atlanta Saturday, blitzing Georgia Tech 49-21… [+7438 chars]"
+        }
+    ]
+}

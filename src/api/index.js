@@ -8,7 +8,7 @@ import { apiURL, apiKey, EVERYTHING, TOP_HEADLINES } from './config';
 export function fetchNews(params = {}) {
     const category     = params.category || '',
           language     = params.lang || 'en',
-          country      = params.country || 'us',
+          country      = params.country || 'gb',
           isEverything = params.isEverything,
           bucket       = isEverything ? EVERYTHING : TOP_HEADLINES,
           keyword      = params.keyword;

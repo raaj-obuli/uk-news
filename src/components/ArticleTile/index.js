@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ArticleTile.scss';
 
 function ArticleTile(props = {}) {
-    const img       = props.img;
+    const img       = props.img || {};
 
     return (
         <article className="ArticleTile">
-            <a href={props.url} target="_blank">
+            <Link to={props.url}>
                 <figure className="ArticleTile_figure">
                     {
                         img &&
@@ -18,7 +19,7 @@ function ArticleTile(props = {}) {
                     <div className="ArticleTile_author">{props.author}</div>
                     <div className="ArticleTile_text">{props.title}</div>
                 </div>
-            </a>
+            </Link>
         </article>
     );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchNews } from '../redux/actions';
-import ArticleTile from '../components/ArticleTile';
-import Search from '../components/Search';
+import { fetchNews } from '../../redux/actions';
+import ArticleTile from '../../components/ArticleTile';
+import Search from '../../components/Search';
 
 import './News.scss';
 
@@ -28,6 +28,9 @@ class News extends React.Component {
                 <div className="News_Items">
                 {
                     news.length ? news.map(function(article = {}, index) {
+                        const id  = article.id || (index + 1),
+                              url = `article/${id}`;
+
                         return (
                             <ArticleTile
                                 key={article.id || index}
@@ -35,7 +38,7 @@ class News extends React.Component {
                                 title={article.title}
                                 img={article.img}
                                 author={article.author}
-                                url={article.url}
+                                url={url}
                             />
                         )
                     }) : <div className="News_noitems">{NO_RESULT}</div>

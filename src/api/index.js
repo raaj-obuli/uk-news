@@ -9,6 +9,7 @@ export function fetchNews(params = {}) {
     const category     = params.category || '',
           language     = params.lang || 'en',
           country      = params.country || 'gb',
+          pageSize     = params.pageSize,
           isEverything = params.isEverything,
           bucket       = isEverything ? EVERYTHING : TOP_HEADLINES,
           keyword      = params.keyword;
@@ -23,6 +24,10 @@ export function fetchNews(params = {}) {
 
     if (language) {
         queryObj.language = language;
+    }
+
+    if (pageSize) {
+        queryObj.pageSize = pageSize;
     }
 
     // everything api will not take `country` param

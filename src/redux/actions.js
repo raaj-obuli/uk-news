@@ -9,7 +9,8 @@ import newsParser from '../parser/newsParser';
 export const fetchNews = (params = {}) => async (dispatch) => {
     let keyword  = params.keyword,
         apiParam = {
-            keyword: keyword
+            keyword: keyword,
+            pageSize: params.pageSize
         }
 
     // search from everything api when a keyword is present

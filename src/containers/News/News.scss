@@ -1,0 +1,21 @@
+.News {
+    &_Search {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    &_Items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .News {
+        &_Search {
+            width: 90%;
+            margin: 50px auto;
+        }
+    }
+}

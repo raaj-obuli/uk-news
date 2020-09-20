@@ -1,9 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { Provider } from 'react-redux';
-import store from '../../redux/store';
-import News from '../News';
-import { FETCH_NEWS } from "../../redux/actionTypes";
+import store from '../../../redux/store';
+import News from '..';
+import { FETCH_NEWS } from "../../../redux/actionTypes";
 
 const Wrapper = mount(
     <Provider store={store}>

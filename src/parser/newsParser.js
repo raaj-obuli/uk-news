@@ -15,6 +15,7 @@ function parseNewsItem(data = {}) {
 
     return {
         author: data.author,
+        content: data.content,
         title: data.title,
         img: data.urlToImage,
         src: source.name,

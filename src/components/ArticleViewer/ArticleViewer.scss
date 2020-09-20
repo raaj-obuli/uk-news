@@ -1,0 +1,46 @@
+.ArticleViewer {
+    transition: all 200ms ease-in;
+
+    &_figure {
+
+        margin: 0;
+        position: relative;
+        height: 400px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+        }
+
+        figcaption {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            padding: 10px 15px;
+            background-color: #ffe000;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    }
+    
+    &_desc {
+        padding: 15px;
+        text-transform: uppercase;
+    }
+
+    &_author {
+        font-size: 12px;
+        font-weight: normal;
+        margin: 0 0 15px 0;
+    }
+
+    &_text {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    &_content {
+        padding: 15px;
+    }
+}

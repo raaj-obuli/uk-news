@@ -1,12 +1,22 @@
-## Available Scripts
+#### Installation
+1. Clone the repo
+2. Run `npm install` to install dependencies  
+3. Run `npm start` to start the server
 
-In the project directory, you can run:
+#### Testing Instruction
+1. Open http://localhost:3000/
+2. Displays list of news items
+3. Enter keyword in the search bar
+4. App re-render with search result
 
-### `npm start`
+#### Unit Test
+Run `npm test` to run the test
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Preview
+![alt text](https://raw.githubusercontent.com/raaj-obuli/uk-news/master/public/preview-image.png?raw=true)
 
-### `npm test`
 
+#### Library/Framework
 
-### Preview
+- React and React Router
+- Redux, Redux Thunk and React Redux
